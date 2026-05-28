@@ -62,7 +62,8 @@ subplot(4,1,4);
 plot(t,epm);
 ```
 # OUTPUT:
- 
+ <img width="1918" height="1121" alt="phase modulation" src="https://github.com/user-attachments/assets/d0d2826e-c7a2-4c51-b363-6704d3d5edbf" />
+
 # RESULT:
 
 The message signal, carrier signal, and phase-modulated (PM) signal will be displayed in separate plots. The modulated signal will show phase variations corresponding to the amplitude of the message signal.
