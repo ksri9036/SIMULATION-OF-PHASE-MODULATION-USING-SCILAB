@@ -62,10 +62,10 @@ subplot(4,1,4);
 plot(t,epm);
 ```
 # OUTPUT:
-<img width="1918" height="1121" alt="phase modulation" src="https://github.com/user-attachments/assets/d0d2826e-c7a2-4c51-b363-6704d3d5edbf" />
+<img width="1576" height="984" alt="image" src="https://github.com/user-attachments/assets/6dbba9ff-2897-40b0-b9a7-c8e740ecf7be" />
  
 # SIGNED OUTPUT:
-<img width="1280" height="963" alt="WhatsApp Image 2026-06-01 at 1 08 57 PM (1)" src="https://github.com/user-attachments/assets/50005707-7bfb-4259-a219-2f465b9c2a23" />
+<img width="1576" height="984" alt="image" src="https://github.com/user-attachments/assets/c406f217-4bb8-462c-a39b-b2cc8655c463" />
 
 # RESULT:
 
