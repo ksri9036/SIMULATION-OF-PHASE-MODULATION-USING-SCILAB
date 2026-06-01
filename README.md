@@ -41,25 +41,29 @@ o	Use Scilab to plot the message signal, carrier signal, and phase-modulated sig
 
 # PROGRAM:
 ```
-Am=15.7;
-fm=1984;
-fs=198400;
+Am=14.2;
+fm=1839;
+Ac=24.14;
+fc=18390;
+fs=183900;
 t=0:1/fs:2/fm;
-Ac=26.69;
-fc=19840;
-B=5.1;
+B=4.1;
 em=Am*cos(2*3.14*fm*t);
 subplot(4,1,1);
-plot(t,em);
+plot(t,em)
+
 ec=Ac*cos(2*3.14*fc*t);
 subplot(4,1,2);
-plot(t,ec);
-efm=Ac*cos((2*3.14*fc*t)+B*sin(2*3.14*fm*t)); 
+plot(t,ec)
+
+eFM=Ac*cos(2*3.14*fc*t+B*sin(2*3.14*fm*t));
 subplot(4,1,3);
-plot(t,efm);
-epm=Ac*cos((2*3.14*fc*t)+B*cos(2*3.14*fm*t));
+plot(t,eFM)
+
+ePM=Ac*cos(2*3.14*fc*t-B*cos(2*3.14*fm*t));
 subplot(4,1,4);
-plot(t,epm);
+plot(t,ePM)
+
 ```
 # OUTPUT:
 <img width="1576" height="984" alt="image" src="https://github.com/user-attachments/assets/6dbba9ff-2897-40b0-b9a7-c8e740ecf7be" />
