@@ -65,7 +65,7 @@ plot(t,epm);
 <img width="1576" height="984" alt="image" src="https://github.com/user-attachments/assets/6dbba9ff-2897-40b0-b9a7-c8e740ecf7be" />
  
 # SIGNED OUTPUT:
-<img width="1576" height="984" alt="image" src="https://github.com/user-attachments/assets/c406f217-4bb8-462c-a39b-b2cc8655c463" />
+<img width="1600" height="1430" alt="image" src="https://github.com/user-attachments/assets/25efbfbd-aca1-4026-b9fd-efee6700b1f4" />
 
 # RESULT:
 
